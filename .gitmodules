@@ -4,3 +4,9 @@
 [submodule "msvd/coco-caption"]
 	path = msvd/coco-caption
 	url = https://github.com/tylin/coco-caption.git
+[submodule "msrvtt/cider"]
+	path = msrvtt/cider
+	url = https://github.com/plsang/cider.git
+[submodule "msrvtt/coco-caption"]
+	path = msrvtt/coco-caption
+	url = https://github.com/tylin/coco-caption.git
