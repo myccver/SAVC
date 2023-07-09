@@ -18,7 +18,7 @@ First clone this repository
 
 `git clone --recursive https://github.com/myccver/Control-CG.git`
 
-Then
+Then, please run following script to download Stanford CoreNLP 3.6.0 models into coco-caption/:
 
 ```
 cd msrvtt/coco-caption
