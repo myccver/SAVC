@@ -13,6 +13,17 @@ You can use anaconda or miniconda to install the dependencies:
 conda create -n control python=2.7 pytorch=1.0 scikit-image h5py requests
 conda activate control
 ```
+## Installation
+First clone this repository
+
+`git clone --recursive https://github.com/myccver/Control-CG.git`
+
+Then
+
+```
+cd msrvtt/coco-caption
+./get_stanford_models.sh
+```
 ## Training
 `python msrvtt/train.py --train_label_h5
 data/metadata/msrvtt_train_sequencelabel.h5
