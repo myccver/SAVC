@@ -16,7 +16,7 @@ conda activate control
 ## Installation
 First clone this repository
 
-`git clone --recursive https://github.com/myccver/Control-CG.git`
+`git clone --recursive https://github.com/myccver/StyleCap.git`
 
 Then, please run following script to download Stanford CoreNLP 3.6.0 models into coco-caption/:
 
@@ -25,7 +25,8 @@ cd msrvtt/coco-caption
 ./get_stanford_models.sh
 ```
 ## Training
-`python msrvtt/train.py --train_label_h5
+```
+python msrvtt/train.py --train_label_h5
 data/metadata/msrvtt_train_sequencelabel.h5
 --val_label_h5
 data/metadata/msrvtt_val_sequencelabel.h5
@@ -115,9 +116,10 @@ output/GL-RG_XE_msrvtt/msrvtt_0.json
 --lamba2
 1.2
 --input_encoding_size
-512`
-
-`python msvd/train.py --train_label_h5
+512
+'''
+```
+python msvd/train.py --train_label_h5
 data/metadata/msvd_train_sequencelabel.h5
 --val_label_h5
 data/metadata/msvd_val_sequencelabel.h5
@@ -203,7 +205,8 @@ No
 --result_file
 output/GL-RG_XE_msvd/msvd_0.json
 --control_id
-0`
+0
+'''
 
 ## Testing
 `python msrvtt/test.py --model_file
