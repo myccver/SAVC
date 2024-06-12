@@ -118,6 +118,7 @@ output/GL-RG_XE_msrvtt/msrvtt_0.json
 --input_encoding_size
 512
 '''
+
 ```
 python msvd/train.py --train_label_h5
 data/metadata/msvd_train_sequencelabel.h5
