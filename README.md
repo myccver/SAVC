@@ -25,6 +25,7 @@ cd msrvtt/coco-caption
 ./get_stanford_models.sh
 ```
 ## Training
+### MSR-VTT
 ```
 python msrvtt/train.py --train_label_h5
 data/metadata/msrvtt_train_sequencelabel.h5
@@ -117,8 +118,9 @@ output/GL-RG_XE_msrvtt/msrvtt_0.json
 1.2
 --input_encoding_size
 512
-'''
+```
 
+### MSVD
 ```
 python msvd/train.py --train_label_h5
 data/metadata/msvd_train_sequencelabel.h5
@@ -207,10 +209,12 @@ No
 output/GL-RG_XE_msvd/msvd_0.json
 --control_id
 0
-'''
+```
 
 ## Testing
-`python msrvtt/test.py --model_file
+### MSR-VTT
+```
+python msrvtt/test.py --model_file
 output/GL-RG_XE_msrvtt/msrvtt_0.pth
 --test_label_h5
 data/metadata/msrvtt_test_sequencelabel.h5
@@ -240,9 +244,11 @@ INFO
 --result_file
 output/GL-RG_XE_msrvtt/msrvtt_0.json
 --control_id
-0`
-
-`python msvd/test.py --model_file
+0
+```
+### MSVD
+```
+python msvd/test.py --model_file
 output/GL-RG_XE_msvd/msvd_0.pth
 --test_label_h5
 data/metadata/msvd_test_sequencelabel.h5
@@ -272,4 +278,5 @@ INFO
 --result_file
 output/GL-RG_XE_msvd/test_result0.json
 --control_id
-0`
+0
+```
