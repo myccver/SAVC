@@ -472,9 +472,6 @@ if __name__ == '__main__':
 
         # test(model, xe_criterion, test_loader, opt)
         #-----------新增代码-----------
-        logger.info('-' * 5 + 'origin result' + '-' * 5)
-        opt.control_id = 0
-        test(model, xe_criterion, test_loader, opt)
         logger.info('-' * 5 + 'short result' + '-' * 5)
         opt.control_id = 1
         test(model, xe_criterion, test_loader, opt)
