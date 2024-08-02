@@ -1,5 +1,4 @@
 # StyleCap
-Official code for Style-Aware Two-Stage Learning Framework for Video Captioning.
 ## Dependencies
 - Python 2.7
 - Pytorch
