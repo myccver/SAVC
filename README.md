@@ -1,4 +1,4 @@
-# StyleCap
+# SAVC
 ## Dependencies
 - Python 2.7
 - Pytorch
@@ -15,7 +15,7 @@ conda activate control
 ## Installation
 First clone this repository
 
-`git clone --recursive https://github.com/myccver/StyleCap.git`
+`git clone --recursive https://github.com/myccver/SAVC.git`
 
 Then, please run following script to download Stanford CoreNLP 3.6.0 models into coco-caption/:
 
