@@ -9,8 +9,8 @@
 You can use anaconda or miniconda to install the dependencies:
 
 ```
-conda create -n control python=2.7 pytorch=1.0 scikit-image h5py requests
-conda activate control
+conda create -n savc python=2.7 pytorch=1.0 scikit-image h5py requests
+conda activate savc
 ```
 ## Installation
 First clone this repository
