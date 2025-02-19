@@ -1,4 +1,4 @@
-# SAVC
+# Style-aware two-stage learning framework for video captioning
 ## Dependencies
 - Python 2.7
 - Pytorch
@@ -23,6 +23,7 @@ Then, please run following script to download Stanford CoreNLP 3.6.0 models into
 cd msrvtt/coco-caption
 ./get_stanford_models.sh
 ```
+# Stage-1: Generate captions in different styles
 ## Training
 ### MSR-VTT
 ```
@@ -47,3 +48,5 @@ sh test.sh
 cd msvd
 sh test.sh
 ```
+# Stage-2: Style aware from video content
+This part of the code is not released.
